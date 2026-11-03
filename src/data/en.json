@@ -1,0 +1,297 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "meta": {
+    "title": "Pak Organic Farms | Pure Farm Milk & Desi Ghee in Islamabad",
+    "description": "Pure organic cow milk, buffalo milk, desi ghee, and yogurt delivered fresh every morning in Islamabad & Rawalpindi. Unadulterated, farm-to-table dairy with monthly invoicing."
+  },
+  "topBar": {
+    "phone": "+92 321 0510111",
+    "phoneDisplay": "+92 321 0510111",
+    "whatsappText": "Message on WhatsApp",
+    "switchLang": "اردو"
+  },
+  "nav": {
+    "products": "Products",
+    "plans": "Plans",
+    "howItWorks": "How It Works",
+    "farm": "Our Farm",
+    "contact": "Contact",
+    "startSub": "Start Subscription"
+  },
+  "hero": {
+    "badge": "Morning Delivery in Islamabad & Rawalpindi",
+    "headline": "Pure organic milk from our farm to your morning table.",
+    "subline": "Unprocessed cow and buffalo milk, bottled raw or pasteurised within hours of milking. No chemical additives, no watering down, delivered daily before 7:00 AM.",
+    "btnPrimary": "Start Subscription",
+    "btnSecondary": "Order on WhatsApp",
+    "facts": [
+      { "label": "Available 24/7", "sub": "Round-the-clock farm dispatch & customer line" },
+      { "label": "4.9 on Google", "sub": "44 verified local reviews from twin cities families" },
+      { "label": "Cow & Buffalo Milk", "sub": "Grass-fed, ethically managed animals" }
+    ],
+    "imageAlt": "Fresh farm milk in glass bottles resting on a clean wooden table"
+  },
+  "products": {
+    "sectionTag": "Direct from the Barn",
+    "title": "Fresh dairy, priced plainly.",
+    "subtitle": "Glass bottle deposits are fully refundable. All products packed cold in food-grade sanitised containers.",
+    "items": [
+      {
+        "id": "cow-milk",
+        "name": "Organic Cow Milk",
+        "desc": "Light, easily digestible A2-dominant milk from free-grazing Sahiwal & Holstein cross cows. Ideal for growing children and daily drinking.",
+        "sizes": [
+          { "size": "1 Litre Glass Bottle", "price": "PKR 280" },
+          { "size": "2 Litres Pack", "price": "PKR 550" }
+        ],
+        "image": "/images/cow-milk.jpg",
+        "badge": "Daily Staple"
+      },
+      {
+        "id": "buffalo-milk",
+        "name": "Organic Buffalo Milk",
+        "desc": "Rich, high-butterfat creamy milk from Nili-Ravi buffaloes. Unmatched for traditional chai, rich yogurt, and setting thick cream.",
+        "sizes": [
+          { "size": "1 Litre Glass Bottle", "price": "PKR 310" },
+          { "size": "2 Litres Pack", "price": "PKR 600" }
+        ],
+        "image": "/images/buffalo-milk.jpg",
+        "badge": "Rich & Creamy"
+      },
+      {
+        "id": "desi-ghee",
+        "name": "Traditional Desi Ghee",
+        "desc": "Slow-simmered, golden cultured butter ghee made using the traditional bilona method. Nutty aroma, high smoke point, zero preservatives.",
+        "sizes": [
+          { "size": "500 g Glass Jar", "price": "PKR 1,850" },
+          { "size": "1 kg Glass Jar", "price": "PKR 3,600" }
+        ],
+        "image": "/images/desi-ghee.jpg",
+        "badge": "Hand-Churned"
+      },
+      {
+        "id": "yogurt",
+        "name": "Natural Farm Yogurt (Dahi)",
+        "desc": "Thick, naturally set curd with active live cultures. Mild acidity, silky texture, with absolutely no gelatin or milk powders added.",
+        "sizes": [
+          { "size": "500 g Earthen Clay Pot", "price": "PKR 190" },
+          { "size": "1 kg Clay Pot", "price": "PKR 360" }
+        ],
+        "image": "/images/yogurt.jpg",
+        "badge": "Clay Pot Set"
+      }
+    ]
+  },
+  "plans": {
+    "sectionTag": "Doorstep Subscriptions",
+    "title": "Choose your delivery routine.",
+    "subtitle": "No advance deposits or complex signups. Pause whenever you are traveling with a simple WhatsApp message.",
+    "note": "Notice on pausing: Please inform our team before 8:00 PM for next-day schedule changes. Bills are tallied against confirmed deliveries only.",
+    "tableHeaders": {
+      "plan": "Delivery Plan",
+      "cadence": "Frequency",
+      "volume": "Recommended Volume",
+      "estimate": "Estimated Monthly Cost",
+      "action": "Select"
+    },
+    "items": [
+      {
+        "id": "daily",
+        "name": "Daily Morning",
+        "cadence": "7 days a week (before 7:00 AM)",
+        "volume": "1 to 4 Litres / day",
+        "estimate": "From PKR 8,400 / month",
+        "description": "Best for regular households with kids who need fresh milk every morning without thinking about it.",
+        "popular": true,
+        "whatsappMsg": "Hello Pak Organic Farms, I would like to start the Daily Morning Milk Subscription in Islamabad/Rawalpindi. Please share confirmation details."
+      },
+      {
+        "id": "alternate",
+        "name": "Alternate Days",
+        "cadence": "3 or 4 days a week (Mon, Wed, Fri, Sun)",
+        "volume": "2 Litres / delivery",
+        "estimate": "From PKR 4,200 / month",
+        "description": "Suited for small couples or households alternating between fresh milk and other pantry items.",
+        "popular": false,
+        "whatsappMsg": "Hello Pak Organic Farms, I would like to sign up for the Alternate Days Delivery Plan. Please assist me with the next steps."
+      },
+      {
+        "id": "weekly",
+        "name": "Weekly / Custom",
+        "cadence": "Custom delivery days + Ghee/Yogurt bundles",
+        "volume": "Custom litres & pantry goods",
+        "estimate": "Calculated on demand",
+        "description": "For custom requirements, weekly bulk batches, or offices and boutique cafes in the twin cities.",
+        "popular": false,
+        "whatsappMsg": "Hello Pak Organic Farms, I need a custom delivery schedule for milk, desi ghee, or yogurt. Could you please share options?"
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionTag": "Simple Routine",
+    "title": "Four steps from our barn to your kitchen.",
+    "subtitle": "We keep billing transparent and logistics dependable so your mornings stay uninterrupted.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Choose your plan",
+        "description": "Pick your preferred milk type (cow or buffalo) and your desired delivery volume (1L, 2L, or more)."
+      },
+      {
+        "number": "02",
+        "title": "WhatsApp confirmation",
+        "description": "Send your address and start date. Our manager confirms your route slot within 30 minutes."
+      },
+      {
+        "number": "03",
+        "title": "Morning doorstep delivery",
+        "description": "Chilled glass bottles are placed at your doorstep between 5:30 AM and 7:00 AM in insulated thermal bags."
+      },
+      {
+        "number": "04",
+        "title": "Monthly digital invoice",
+        "description": "At month end, we send a detailed WhatsApp itemised invoice. Pay easily via Bank Transfer, Raast, or JazzCash."
+      }
+    ]
+  },
+  "farm": {
+    "sectionTag": "Complete Traceability",
+    "title": "Where your milk comes from and how it is handled.",
+    "lead": "Most urban market milk passes through intermediaries who chill, pool, re-pasteurise, and adulterate it with starch or water. Our milk never leaves our closed chain.",
+    "facts": [
+      {
+        "title": "Dietary fodder grown on clean soil",
+        "detail": "Animals feed on certified seasonal green silage (maize, berseem, sorghum), natural hay, and oilseed cakes. Zero antibiotic feed supplements."
+      },
+      {
+        "title": "Morning & evening milking routines",
+        "detail": "Milking takes place twice a day using automated Swedish stainless steel milking clusters that prevent hand contamination."
+      },
+      {
+        "title": "Chilled down to 4°C within 45 minutes",
+        "detail": "Milk enters our bulk milk cooler (BMC) immediately to stop bacterial development cold, without needing boiling or chemical preservatives."
+      },
+      {
+        "title": "Food-grade sanitised glass bottles",
+        "detail": "Bottled in sterile reusable glass containers. Glass leaves zero microplastics, keeps milk colder, and retains original dairy aroma."
+      },
+      {
+        "title": "Routine purity and fat testing",
+        "detail": "Every batch is tested on lactometer and ultrasonic milk analyzers for density, fat percentage, and total solids before dispatch."
+      }
+    ],
+    "imageAlt": "Healthy grazing cattle in an open airy farm barn at morning light"
+  },
+  "reviews": {
+    "sectionTag": "Customer Feedback",
+    "title": "Trusted by families across Islamabad & Rawalpindi.",
+    "ratingSummary": "Rated 4.9 / 5.0 across 44 verified reviews on Google",
+    "items": [
+      {
+        "quote": "Finding real milk that doesn't smell like plastic or leave a watery layer when boiled seemed impossible until we switched to Pak Organic. The malai on the buffalo milk is thick and the kids love the cow milk taste.",
+        "author": "Dr. Tariq Masood",
+        "location": "DHA Phase 2, Islamabad",
+        "plan": "Daily Cow & Buffalo Milk"
+      },
+      {
+        "quote": "We have been on their daily morning subscription for 7 months. Delivered quietly before 6:30 AM, bottle is icy cold, and the monthly Raast invoice on WhatsApp makes payment completely effortless.",
+        "author": "Amina Usman",
+        "location": "Sector F-10/3, Islamabad",
+        "plan": "Daily Cow Milk (2 Litres)"
+      },
+      {
+        "quote": "Their desi ghee has the exact nutty bilona aroma my grandmother used to make in the village. Genuine quality and transparent people to deal with.",
+        "author": "Kamran Siddiqui",
+        "location": "Bahria Town Phase 4, Rawalpindi",
+        "plan": "Monthly Desi Ghee & Yogurt"
+      }
+    ]
+  },
+  "faq": {
+    "sectionTag": "Common Questions",
+    "title": "Clear answers before you subscribe.",
+    "items": [
+      {
+        "q": "Which sectors and areas do you deliver to?",
+        "a": "We currently deliver daily morning orders across PWD Society, DHA Phases 1 & 2, Bahria Town (Phases 1-8), Pakistan Town, Media Town, Soan Gardens, and CDA sectors including F-6, F-7, F-8, F-10, F-11, G-9, G-10, G-11, and I-8. If your area is nearby, message us on WhatsApp to confirm delivery route feasibility."
+      },
+      {
+        "q": "What time does the delivery arrive?",
+        "a": "Our cold delivery vans run every morning between 5:30 AM and 7:00 AM. Your milk arrives before breakfast so your morning tea and breakfast routine are ready without delay."
+      },
+      {
+        "q": "How does the monthly billing and payment work?",
+        "a": "There is no upfront charge or card required. On the 1st of each calendar month, our dispatch system tallies your exact deliveries and sends an itemised PDF statement via WhatsApp. You can clear it within 5 days using direct bank transfer, Raast ID, JazzCash, or EasyPaisa."
+      },
+      {
+        "q": "What happens when I go on vacation or need to pause?",
+        "a": "You can pause, resume, or change delivery quantities anytime. Just send a brief message to our WhatsApp support number before 8:00 PM the previous evening. You are only billed for days your bottles were delivered."
+      },
+      {
+        "q": "Why do you use glass bottles instead of plastic pouches?",
+        "a": "Glass is 100% inert, meaning no harmful microplastics, BPA, or phthalates leach into fresh milk. It chills faster, keeps the milk tasting pure, and prevents environmental plastic waste. We collect the rinsed empty bottles during your next delivery."
+      },
+      {
+        "q": "Is the milk raw or pasteurised? Do we need to boil it?",
+        "a": "Our milk is chilled immediately to 4°C at the farm and transported in temperature-controlled boxes. We offer raw fresh milk (preferred by traditional customers who prefer their own gentle boil) as well as batch-pasteurised milk. As standard kitchen practice in Pakistan, a gentle boil is recommended before consumption."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTag": "Visit & Connect",
+    "title": "Visit our office or message us directly.",
+    "subtitle": "We welcome customers to drop by our PWD office or get in touch for subscriptions and bulk dairy requirements.",
+    "addressTitle": "Farm Operations & Office",
+    "addressLine": "2nd Floor, Javed Plaza, Sector D, PWD Society, Islamabad, Pakistan",
+    "timings": "Open 24/7 for customer inquiries and orders",
+    "phone": "+92 321 0510111",
+    "instagram": "pakorganicfarms",
+    "instagramUrl": "https://instagram.com/pakorganicfarms",
+    "deliveryAreasTitle": "Primary Delivery Coverage",
+    "deliveryAreas": [
+      "PWD Society (Sectors A - D)",
+      "DHA Islamabad (Phases 1, 2, 4 & 5)",
+      "Bahria Town (Phases 1 to 8)",
+      "Police Foundation & Soan Gardens",
+      "Media Town & Pakistan Town",
+      "CDA Sectors (F-6, F-7, F-8, F-10, F-11)",
+      "CDA Sectors (G-9, G-10, G-11, I-8)"
+    ],
+    "form": {
+      "formTitle": "Start Milk Subscription",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "e.g. Asim Chaudhry",
+      "phoneLabel": "Phone / WhatsApp",
+      "phonePlaceholder": "03XX XXXXXXX",
+      "addressLabel": "Complete Street Address & Sector",
+      "addressPlaceholder": "House #, Street #, Sector / Society, Islamabad",
+      "productLabel": "Dairy Product & Quantity",
+      "productOptions": [
+        "Cow Milk - 1 Litre / day",
+        "Cow Milk - 2 Litres / day",
+        "Buffalo Milk - 1 Litre / day",
+        "Buffalo Milk - 2 Litres / day",
+        "Mixed (1L Cow + 1L Buffalo)",
+        "Desi Ghee & Yogurt only"
+      ],
+      "frequencyLabel": "Delivery Cadence",
+      "frequencies": [
+        "Daily (7 days / week)",
+        "Alternate Days",
+        "Weekly Custom"
+      ],
+      "submitButton": "Submit Subscription on WhatsApp",
+      "formDisclaimer": "Submitting will open a pre-filled WhatsApp message with your selected order details directly to our dispatch desk."
+    }
+  },
+  "footer": {
+    "tagline": "Pure, unadulterated farm dairy for Islamabad & Rawalpindi households.",
+    "quickLinks": "Quick Links",
+    "hours": "Operations: 24/7 Service",
+    "copyright": "© 2026 Pak Organic Farms. All rights reserved.",
+    "credit": "Handcrafted for local purity."
+  },
+  "floatingWhatsApp": "WhatsApp Us"
+}
+

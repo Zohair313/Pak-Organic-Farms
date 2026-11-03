@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-milk-cream: #FBF8F1;
+    --color-ink-blue: #1F3A5F;
+    --color-ghee-gold: #C9962B;
+    --color-soft-sand: #EFE8D8;
+    --color-dark-text: #1D2430;
+    --color-border-subtle: #DFD7C5;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* English Fonts */
+  html[lang="en"] {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  html[lang="en"] .font-heading {
+    font-family: 'Fraunces', Georgia, serif;
+    font-variation-settings: "opsz" 36;
+  }
+  html[lang="en"] .font-body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Urdu Fonts & Typography Rules */
+  html[lang="ur"] {
+    font-family: 'Noto Naskh Arabic', Tahoma, sans-serif;
+    letter-spacing: normal !important;
+  }
+  html[lang="ur"] * {
+    letter-spacing: normal !important;
+  }
+  html[lang="ur"] .font-heading {
+    font-family: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;
+    line-height: 2.15 !important;
+    padding-block: 0.15em;
+  }
+  html[lang="ur"] .font-body {
+    font-family: 'Noto Naskh Arabic', Tahoma, sans-serif;
+    line-height: 1.85 !important;
+    font-size: 1.0625rem;
+  }
+
+  /* Prevent Nastaliq descender & ascender clipping */
+  html[lang="ur"] h1, 
+  html[lang="ur"] h2, 
+  html[lang="ur"] h3 {
+    line-height: 2.1 !important;
+    overflow: visible;
+  }
+}
+
+/* Authentic architectural & dairy patterns (flat, geometric, subtle) */
+.bg-pattern-grid {
+  background-color: #FBF8F1;
+  background-image: url('/images/pattern-grid.svg');
+  background-repeat: repeat;
+}
+
+.bg-pattern-sand {
+  background-color: #EFE8D8;
+  background-image: url('/images/pattern-sand-dots.svg');
+  background-repeat: repeat;
+}
+
+.bg-pattern-ink {
+  background-color: #162A45;
+  background-image: url('/images/pattern-ink-cross.svg');
+  background-repeat: repeat;
+}
+
+/* Logical property utilities for RTL & LTR symmetry */
+.text-start-adaptive {
+  text-align: start;
+}
+
+.border-inline-start-accent {
+  border-inline-start: 3px solid #C9962B;
+}
+
+/* Subtle transitions only */
+.simple-transition {
+  transition: all 180ms ease-in-out;
+}

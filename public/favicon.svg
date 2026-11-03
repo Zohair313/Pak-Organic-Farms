@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="6" fill="#1F3A5F"/>
+  <!-- Bottle silhouette in creamy milk tone -->
+  <path d="M21 10h6v3h-6z M22 13h4v4l4 5v18H18V22l4-5z" fill="#FBF8F1"/>
+  <!-- Ghee Gold droplet -->
+  <circle cx="24" cy="29" r="3.5" fill="#C9962B"/>
+</svg>

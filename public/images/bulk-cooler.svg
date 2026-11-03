@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#EAE2D1" />
+  <!-- Stainless steel bulk cooler equipment interior -->
+  <rect x="50" y="50" width="500" height="300" rx="6" fill="#D3DEE5" stroke="#A9BCC8" stroke-width="2" />
+  <rect x="70" y="70" width="460" height="260" rx="4" fill="#B9CAD6" />
+  <!-- Stainless cylindrical milk storage tank -->
+  <ellipse cx="300" cy="140" rx="140" ry="40" fill="#E8EFF4" stroke="#90A6B6" stroke-width="2" />
+  <rect x="160" y="140" width="280" height="130" fill="#DCE5EC" stroke="#90A6B6" stroke-width="2" />
+  <ellipse cx="300" cy="270" rx="140" ry="40" fill="#CBD9E2" stroke="#90A6B6" stroke-width="2" />
+  <!-- Digital Temperature display reading 3.8 °C -->
+  <rect x="230" y="180" width="140" height="45" rx="3" fill="#1F3A5F" />
+  <text x="300" y="210" font-family="monospace" font-size="20" font-weight="bold" fill="#C9962B" text-anchor="middle">3.8 °C</text>
+  <text x="300" y="222" font-family="sans-serif" font-size="8" fill="#FBF8F1" text-anchor="middle">BMC CHILLED BATCH #04</text>
+  <!-- Piping and sanitised valves -->
+  <rect x="120" y="240" width="40" height="16" fill="#8198AA" />
+  <rect x="440" y="240" width="40" height="16" fill="#8198AA" />
+  <!-- Label tag -->
+  <rect x="20" y="345" width="280" height="36" rx="3" fill="#1F3A5F" />
+  <text x="35" y="367" font-family="Georgia, serif" font-size="12" fill="#FBF8F1">4°C Cold Storage Unit</text>
+</svg>
+

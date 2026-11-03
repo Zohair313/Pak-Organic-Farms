@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <rect width="600" height="450" fill="#EFE8DA" />
+  <circle cx="300" cy="225" r="170" fill="#E4D9C5" />
+  <!-- Wooden surface -->
+  <rect x="0" y="320" width="600" height="130" fill="#66462C" />
+  <!-- Bottle shadow -->
+  <ellipse cx="300" cy="340" rx="95" ry="19" fill="#2E1C0D" opacity="0.45" />
+  <!-- Bottle - wider silhouette for rich buffalo milk -->
+  <path d="M235 170 Q235 145 265 125 L265 90 L335 90 L335 125 Q365 145 365 170 L375 210 L375 320 Q375 340 350 340 L250 340 Q225 340 225 320 L235 210 Z" fill="#FCFCFC" stroke="#B8C4D0" stroke-width="2" />
+  <rect x="262" y="80" width="76" height="15" rx="2" fill="#1F3A5F" />
+  <!-- Thick malai cream top band -->
+  <rect x="230" y="165" width="140" height="30" fill="#F8EED6" opacity="0.9" />
+  <line x1="230" y1="195" x2="370" y2="195" stroke="#DFCA99" stroke-width="3" />
+  <!-- Label -->
+  <rect x="248" y="215" width="104" height="90" rx="3" fill="#1F3A5F" />
+  <text x="300" y="244" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#FBF8F1" text-anchor="middle">ORGANIC BUFFALO</text>
+  <text x="300" y="259" font-family="sans-serif" font-size="8" fill="#C9962B" text-anchor="middle">MILK • 1 LITRE</text>
+  <text x="300" y="284" font-family="sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">NILI-RAVI RICH FAT</text>
+</svg>
+

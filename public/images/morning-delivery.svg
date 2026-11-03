@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#EAE2D1" />
+  <!-- Morning road / doorway doorstep -->
+  <rect x="0" y="240" width="600" height="160" fill="#756455" />
+  <!-- Traditional Islamabad doorstep stone step -->
+  <rect x="100" y="220" width="400" height="40" rx="3" fill="#B3A392" stroke="#8A7A6A" stroke-width="2" />
+  <!-- Heavy duty insulated milk delivery carrier bag / crate -->
+  <rect x="180" y="150" width="240" height="130" rx="4" fill="#1F3A5F" stroke="#162A45" stroke-width="2" />
+  <rect x="190" y="140" width="220" height="18" rx="2" fill="#2B4E7A" />
+  <!-- Stenciled brand on delivery bag -->
+  <text x="300" y="210" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#FBF8F1" text-anchor="middle">PAK ORGANIC FARMS</text>
+  <text x="300" y="230" font-family="sans-serif" font-size="10" fill="#C9962B" text-anchor="middle">MORNING COLD DISPATCH</text>
+  <!-- Two glass bottles standing next to bag in insulated bottle pouch -->
+  <rect x="360" y="110" width="35" height="70" rx="3" fill="#FFFFFF" opacity="0.9" stroke="#CCD5DE" stroke-width="2" />
+  <rect x="368" y="102" width="19" height="10" rx="1" fill="#C9962B" />
+  <text x="300" y="255" font-family="sans-serif" font-size="9" fill="#A8B7C9" text-anchor="middle">Delivered before 7:00 AM</text>
+  <!-- Caption tag -->
+  <rect x="20" y="345" width="280" height="36" rx="3" fill="#1F3A5F" />
+  <text x="35" y="367" font-family="Georgia, serif" font-size="12" fill="#FBF8F1">Morning Doorstep Cold Box</text>
+</svg>
+

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <rect width="600" height="450" fill="#F4EFE6" />
+  <circle cx="300" cy="225" r="160" fill="#EAE0D0" />
+  <!-- Surface -->
+  <rect x="0" y="320" width="600" height="130" fill="#583C25" />
+  <!-- Shadow -->
+  <ellipse cx="300" cy="340" rx="95" ry="17" fill="#291A0E" opacity="0.45" />
+  <!-- Clay Pot (Handi / Koondee) -->
+  <path d="M210 220 Q200 310 250 335 L350 335 Q400 310 390 220 Q350 210 300 210 Q250 210 210 220 Z" fill="#9C5238" stroke="#7E3E28" stroke-width="2" />
+  <!-- Thick creamy yogurt top -->
+  <ellipse cx="300" cy="222" rx="85" ry="24" fill="#FFFFFF" stroke="#DEC8AA" stroke-width="2" />
+  <!-- Clay pot rim -->
+  <ellipse cx="300" cy="216" rx="90" ry="12" fill="none" stroke="#6F3622" stroke-width="5" />
+  <!-- Traditional cloth seal with string -->
+  <path d="M200 216 Q300 230 400 216" stroke="#C9962B" stroke-width="3" stroke-dasharray="6,4" />
+  <!-- Earthen badge -->
+  <rect x="255" y="275" width="90" height="40" rx="3" fill="#1F3A5F" />
+  <text x="300" y="295" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#FBF8F1" text-anchor="middle">FARM DAHI</text>
+  <text x="300" y="307" font-family="sans-serif" font-size="7.5" fill="#C9962B" text-anchor="middle">SET IN CLAY POT</text>
+</svg>
+

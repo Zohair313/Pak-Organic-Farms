@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFE8D8" />
+      <stop offset="100%" stop-color="#E3DAC7" />
+    </linearGradient>
+    <linearGradient id="milkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F5EFE3" />
+    </linearGradient>
+    <linearGradient id="woodTable" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7B5B3E" />
+      <stop offset="100%" stop-color="#5C4028" />
+    </linearGradient>
+  </defs>
+  <!-- Background farm morning interior -->
+  <rect width="1200" height="800" fill="url(#warmBg)" />
+  <!-- Window morning light glow -->
+  <rect x="80" y="60" width="340" height="380" rx="4" fill="#F8F4EA" opacity="0.6" stroke="#D3C7B2" stroke-width="4" />
+  <line x1="250" y1="60" x2="250" y2="440" stroke="#D3C7B2" stroke-width="4" />
+  <line x1="80" y1="250" x2="420" y2="250" stroke="#D3C7B2" stroke-width="4" />
+
+  <!-- Rustic Table Top -->
+  <rect x="0" y="540" width="1200" height="260" fill="url(#woodTable)" />
+  <line x1="0" y1="542" x2="1200" y2="542" stroke="#9A7550" stroke-width="3" />
+
+  <!-- Glass Bottle 1 (Front Center) -->
+  <!-- Shadow -->
+  <ellipse cx="640" cy="570" rx="110" ry="24" fill="#3E2B1A" opacity="0.45" />
+
+  <!-- Main Glass Bottle Body -->
+  <path d="M570 320 L570 240 Q570 210 610 190 L610 150 L670 150 L670 190 Q710 210 710 240 L710 320 L730 380 L730 550 Q730 570 710 570 L570 570 Q550 570 550 550 L550 380 Z" fill="url(#milkGrad)" stroke="#B8C5D3" stroke-width="3" />
+  
+  <!-- Ceramic / Wax cap -->
+  <path d="M605 136 L675 136 L670 152 L610 152 Z" fill="#C9962B" />
+  <rect x="602" y="146" width="76" height="8" rx="2" fill="#A87A1E" />
+  <path d="M605 154 Q640 162 675 154 L670 180 Q640 190 610 180 Z" fill="#B38020" opacity="0.4" />
+  
+  <!-- Glass reflection highlight -->
+  <path d="M565 370 L565 540 Q565 555 575 555" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.8" />
+  <line x1="685" y1="260" x2="685" y2="530" stroke="#FFFFFF" stroke-width="3" opacity="0.4" />
+  
+  <!-- Cream Line demarcation on top of milk -->
+  <path d="M552 320 Q640 330 728 320" stroke="#DFCA99" stroke-width="8" fill="none" />
+  <rect x="552" y="322" width="176" height="40" fill="#FDF3DB" opacity="0.5" />
+
+  <!-- Pak Organic Farms Label on Bottle -->
+  <rect x="580" y="380" width="120" height="110" rx="4" fill="#1F3A5F" />
+  <rect x="584" y="384" width="112" height="102" rx="2" fill="none" stroke="#C9962B" stroke-width="1.5" />
+  <text x="640" y="415" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#FBF8F1" text-anchor="middle" letter-spacing="1">PAK ORGANIC</text>
+  <text x="640" y="432" font-family="sans-serif" font-size="9" fill="#C9962B" text-anchor="middle" letter-spacing="2">FARMS</text>
+  <line x1="600" y1="442" x2="680" y2="442" stroke="#C9962B" stroke-width="1" />
+  <text x="640" y="460" font-family="Georgia, serif" font-size="11" fill="#FFFFFF" text-anchor="middle">PURE MILK</text>
+  <text x="640" y="476" font-family="sans-serif" font-size="8" fill="#DFCA99" text-anchor="middle">1 LITRE • RAW CHILLED</text>
+
+  <!-- Glass Tumbler next to bottle -->
+  <ellipse cx="430" cy="565" rx="60" ry="16" fill="#3E2B1A" opacity="0.4" />
+  <path d="M380 430 L395 560 Q400 568 430 568 Q460 568 465 560 L480 430 Z" fill="url(#milkGrad)" stroke="#B8C5D3" stroke-width="2" />
+  <ellipse cx="430" cy="430" rx="50" ry="12" fill="#FFFFFF" stroke="#CCD7E2" stroke-width="2" />
+  <path d="M390 450 L400 550" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.75" />
+
+  <!-- Atmospheric tag -->
+  <rect x="880" y="680" width="260" height="60" rx="4" fill="#1F3A5F" opacity="0.95" />
+  <text x="900" y="715" font-family="Georgia, serif" font-size="16" fill="#FBF8F1">Fresh Morning Bottling</text>
+  <text x="900" y="730" font-family="sans-serif" font-size="11" fill="#C9962B">ISLAMABAD ROUTE 01</text>
+</svg>
+

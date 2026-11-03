@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#EAE2D1" />
+  <!-- Stainless lab bench surface -->
+  <rect x="0" y="260" width="600" height="140" fill="#CBD6DF" />
+  <line x1="0" y1="262" x2="600" y2="262" stroke="#A8BAC6" stroke-width="2" />
+  <!-- Glass Lactometer Cylinder with fresh milk -->
+  <rect x="180" y="80" width="55" height="230" rx="4" fill="#FFFFFF" stroke="#8EA4B5" stroke-width="2" />
+  <!-- Lactometer floating spindle -->
+  <rect x="204" y="60" width="7" height="180" fill="#C9962B" />
+  <ellipse cx="207.5" cy="240" rx="16" ry="24" fill="#9C3528" opacity="0.8" />
+  <!-- Scale marks on lactometer -->
+  <line x1="190" y1="120" x2="200" y2="120" stroke="#7A8F9F" stroke-width="1.5" />
+  <line x1="190" y1="140" x2="200" y2="140" stroke="#7A8F9F" stroke-width="1.5" />
+  <line x1="190" y1="160" x2="200" y2="160" stroke="#7A8F9F" stroke-width="1.5" />
+  <line x1="190" y1="180" x2="200" y2="180" stroke="#7A8F9F" stroke-width="1.5" />
+  <!-- Ultrasonic fat analyzer device -->
+  <rect x="310" y="140" width="220" height="150" rx="4" fill="#FFFFFF" stroke="#BAC8D3" stroke-width="2" />
+  <rect x="330" y="160" width="180" height="55" rx="3" fill="#1F3A5F" />
+  <text x="420" y="185" font-family="monospace" font-size="14" font-weight="bold" fill="#FBF8F1" text-anchor="middle">FAT: 7.2% | SNF: 9.1%</text>
+  <text x="420" y="202" font-family="sans-serif" font-size="9" fill="#C9962B" text-anchor="middle">UNADULTERATED GRADE A</text>
+  <!-- Analyzer test button -->
+  <circle cx="350" cy="250" r="12" fill="#C9962B" />
+  <rect x="380" y="245" width="120" height="10" rx="2" fill="#EFE8D8" />
+  <!-- Caption tag -->
+  <rect x="20" y="345" width="280" height="36" rx="3" fill="#1F3A5F" />
+  <text x="35" y="367" font-family="Georgia, serif" font-size="12" fill="#FBF8F1">Daily Fat & Purity Quality Check</text>
+</svg>
+
